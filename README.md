@@ -1,20 +1,20 @@
 Python Code Analyzer
-A web application that analyzes Python code for quality, complexity, and potential issues. This tool helps developers improve their code by providing detailed reports on various metrics and identifying areas for improvement.
+A web-based tool that provides static analysis of Python code to help developers improve code quality, maintainability, and security.
 
-Key Features
-Code Analysis: Analyzes Python code by parsing its Abstract Syntax Tree (AST) to generate metrics on total lines, code lines, function/class counts, and cyclomatic complexity.
+⚙️ Key Features
+Comprehensive Code Analysis: Parses Python code using the Abstract Syntax Tree (AST) to generate detailed metrics like Cyclomatic Complexity, function counts, and line statistics.
 
-Issue Detection: Scans code for common issues such as high complexity, overly long functions, missing docstrings, bare except clauses, and potential security vulnerabilities like hardcoded secrets and dangerous function calls (eval, exec).
+Actionable Issue Detection: Automatically flags potential code quality issues such as overly complex functions, missing docstrings, and bare except blocks.
 
-User-Friendly Interface: Provides a modern, responsive front-end for users to either upload .py files or paste code directly into the application for immediate analysis.
+Security Vulnerability Scanning: Identifies common security risks, including hardcoded secrets (e.g., API keys) and dangerous function calls (eval, exec).
 
-Web Application: The project is a web-based service, accessible via a URL, and hosted on a platform like Heroku.
+Intuitive User Interface: Offers a clean, responsive front-end where users can either upload .py files or paste code snippets for instant analysis.
 
-Technologies Used
-Backend: Flask, Python
+🛠️ Technologies Used
+Backend: Python, Flask
 
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML5, CSS3, JavaScript
 
-Core Logic: Python's ast module for code parsing
+Analysis Engine: Python's built-in ast module
 
 Deployment: Heroku
