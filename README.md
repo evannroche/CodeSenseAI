@@ -10,7 +10,6 @@ Security Vulnerability Scanning: Identifies common security risks, including har
 
 Intuitive User Interface: Offers a clean, responsive front-end where users can either upload .py files or paste code snippets for instant analysis.
 
-Link to Website: https://codesense-ai-425239a0640f.herokuapp.com/
 
 🛠️ Technologies Used
 Backend: Python, Flask
@@ -19,4 +18,3 @@ Frontend: HTML5, CSS3, JavaScript
 
 Analysis Engine: Python's built-in ast module
 
-Deployment: Heroku
